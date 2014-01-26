@@ -1,4 +1,5 @@
 duke-ldoc
 =========
 
-LDOC's new website! aw yeah~
+Default Username: admin@example.com
+Default Password: password
