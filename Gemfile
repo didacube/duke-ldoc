@@ -27,6 +27,9 @@ gem 'jbuilder', '~> 1.2'
 # ActiveAdmin
 gem 'activeadmin', github: 'gregbell/active_admin'
 
+# Bootstrap
+gem 'bootstrap-sass', '~> 3.0.3.0'
+
 # Better Errors
 group :development do
 	gem 'sqlite3'
