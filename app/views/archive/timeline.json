@@ -1,0 +1,156 @@
+{
+    "timeline":
+    {
+        "headline":"The History of LDOC",
+        "type":"default",
+        "text":"<p>LDOC is a tradition blahblahblah lorem ipsum poop</p>",
+        "asset": {
+            "media":"http://duuke.org/ldoc/files/2012/02/Macklemore-LDOC-2013-300x177.png",
+            "credit":"Daniel Zhang",
+            "caption":"Macklemore at LDOC 2013"
+        },
+        "date": [
+            {
+                "startDate":"2004,4,21",
+                "endDate":"2004,4,21",
+                "headline":"LDOC 2004",
+                "text":"<p>Kanye West headlines</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://i1.cdnds.net/13/26/618x922/odd-section-kanye-west-lookalike-with-baby-north-west-sunglasses-alison-jackson-spoof.jpg",
+                    "thumbnail":"http://i1.cdnds.net/13/26/618x922/odd-section-kanye-west-lookalike-with-baby-north-west-sunglasses-alison-jackson-spoof.jpg",
+                    "credit":"Daniel Zhang",
+                    "caption":"Kanye and North before the concert"
+                }
+            },
+            {
+                "startDate":"2006,4,26",
+                "endDate":"2006,4,26",
+                "headline":"LDOC 2006",
+                "text":"<p>Guster performs with gusto</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://blogs.riverfronttimes.com/atoz/guster_pageant_todd_owyoung.jpg",
+                    "thumbnail":"http://blogs.riverfronttimes.com/atoz/guster_pageant_todd_owyoung.jpg",
+                    "credit":"Daniel Zhang",
+                    "caption":"Guster and friends"
+                }
+            },
+            {
+                "startDate":"2007,4,25",
+                "endDate":"2007,4,25",
+                "headline":"LDOC 2007",
+                "text":"<p>Common and Jason Mraz have some things in common</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://bloximages.newyork1.vip.townnews.com/thehour.com/content/tncms/assets/v3/editorial/a/55/a55d3f3b-90ac-5367-b5fe-1f5b2fc798c8/50cf5a25ce247.image.jpg",
+                    "thumbnail":"http://bloximages.newyork1.vip.townnews.com/thehour.com/content/tncms/assets/v3/editorial/a/55/a55d3f3b-90ac-5367-b5fe-1f5b2fc798c8/50cf5a25ce247.image.jpg",
+                    "credit":"Daniel Zhang",
+                    "caption":"Jason Mraz, a Common pleasure"
+                }
+            },
+            {
+                "startDate":"2008,4,23",
+                "endDate":"2008,4,23",
+                "headline":"LDOC 2008",
+                "text":"<p>Third Eye Blind, The Roots, Absentstar, The Frontiers, Carbon Leaf</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"https://www.youtube.com/watch?v=aUIkJi-MkaE",
+                    "thumbnail":"http://userserve-ak.last.fm/serve/64s/18306739.jpg",
+                    "credit":"Daniel Zhang",
+                    "caption":"The Roots are the root of our fun"
+                }
+            },
+            {
+                "startDate":"2009,4,22",
+                "endDate":"2009,4,22",
+                "headline":"LDOC 2009",
+                "text":"<p>Ben Folds, Gym Class Heroes, Girl Talk, Makepeace Brothers, Mike Posner & The Brain Trust</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://farm4.static.flickr.com/3316/3478425167_fe2fe53369.jpg",
+                    "thumbnail":"http://farm4.static.flickr.com/3316/3478425167_fe2fe53369.jpg",
+                    "credit":"Daniel Zhang",
+                    "caption":"Girl talk talks to girls"
+                }
+            },
+            {
+                "startDate":"2010,4,28",
+                "endDate":"2010,4,28",
+                "headline":"LDOC 2010",
+                "text":"<p>Flogging Molly, Jay Sean, Rooney, Big D and the Kids Table</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://hankhwang.files.wordpress.com/2010/04/0428002033.jpg?w=479&h=359",
+                    "thumbnail":"http://hankhwang.files.wordpress.com/2010/04/0428002033.jpg?w=479&h=359",
+                    "credit":"Daniel Zhang",
+                    "caption":"Jay Sean in a JSON"
+                }
+            },
+            {
+                "startDate":"2011,4,27",
+                "endDate":"2011,4,27",
+                "headline":"LDOC 2011",
+                "text":"<p>Ludacris, Dev, Hyper Crush, Rudy Currence</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://today.duke.edu/sites/default/files/stories/ludacris_CMS_0.jpg",
+                    "thumbnail":"http://today.duke.edu/sites/default/files/stories/ludacris_CMS_0.jpg",
+                    "credit":"Daniel Zhang",
+                    "caption":"Ludacrous for Ludacris"
+                }
+            },
+            {
+                "startDate":"2012,4,25",
+                "endDate":"2012,4,25",
+                "headline":"LDOC 2012",
+                "text":"<p>B.o.B, Macklemore x Ryan Lewis, Basshunter, 3LAU</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://www.adventured.com/wp-content/uploads/egbert-489x430.jpeg",
+                    "thumbnail":"http://www.adventured.com/wp-content/uploads/egbert-489x430.jpeg",
+                    "credit":"Daniel Zhang",
+                    "caption":"3LAU blows us away!"
+                }
+            },
+            {
+                "startDate":"2013,4,24",
+                "endDate":"2013,4,24",
+                "headline":"LDOC 2013",
+                "text":"<p>Steve Aoki, Kendrick Lamar, Travis Porter, Bad Rabbits, Blank 281</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://duuke.org/ldoc/files/2013/02/Steve-Aoki.png",
+                    "thumbnail":"http://duuke.org/ldoc/files/2013/02/Steve-Aoki.png",
+                    "credit":"Daniel Zhang",
+                    "caption":"Steve Aoki? OKEY"
+                }
+            },
+            {
+                "startDate":"2014,4,23",
+                "endDate":"2014,4,23",
+                "headline":"LDOC 2014",
+                "text":"<p>WHO KNOWS?!</p>",
+                "tag":"",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://static1.businessinsider.com/image/4f689ef2eab8ea422b00004f/everyone-is-wondering-who-the-high-profile-mystery-speaker-will-be-at-the-republican-national-convention.jpg",
+                    "thumbnail":"http://static1.businessinsider.com/image/4f689ef2eab8ea422b00004f/everyone-is-wondering-who-the-high-profile-mystery-speaker-will-be-at-the-republican-national-convention.jpg",
+                    "credit":"Daniel Zhang",
+                    "caption":"YOU CAN BE NEXT"
+                }
+            }
+
+        ]
+    }
+}
