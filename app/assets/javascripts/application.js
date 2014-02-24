@@ -14,4 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
+//= require timeline-min
+//= require storyjs-embed
+//= require archive
 //= require_tree .

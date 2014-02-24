@@ -1,17 +1,12 @@
 body {
-	background-color: #171717
+	background-color: #171717;
 }
 
 #archive {
 	position: static;
 
-	.vco-storyjs {
-		background-color: #1a1a1a; !important
-	}
-
-
 	.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-frame, .vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-image img {
-		border: 0px; !important
+		border: 0px;
 	}
 
 	.vco-timeline .vco-navigation .timenav-background .timenav-indicator {
@@ -31,7 +26,7 @@ body {
 	}
 
 	.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-shadow {
-		content: none; !important
+		content: none;
 		color: #171717;
 		position: static;
 	}
@@ -46,7 +41,7 @@ body {
 	}
 
 	.vco-timeline .vco-navigation .timenav-background .timenav-line {
-		background-color: #e2e2e2; !important
+		background-color: #e2e2e2;
 	}
 
 	.vco-timeline .vco-navigation .timenav .content .marker.active .flag {

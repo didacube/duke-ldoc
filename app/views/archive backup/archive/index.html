@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Duke LDOC | Archive</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/storyjs-embed.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<script>
+            $(document).ready(function() {
+                createStoryJS({
+                    type:       'timeline',
+                    width:      '100%',
+                    height:     '700',
+                    source:     'timeline.json',
+                    embed_id:   'my-timeline'
+                });
+            });
+        </script>
+	</head>
+	<body>
+		<header class="navbar">
+			<table>
+				<tr>
+					<td class="button">About</td>
+					<td class="button">Committee</td>
+					<td class="button">Music</td>
+					<td class="button">Schedule</td>
+					<td><img src="img/LDOClogo.png"></td>
+					<td class="button">Gallery</td>
+					<td class="button">Archive</td>
+					<td class="button">Policies</td>
+					<td class="button">Sponsors</td>
+				</tr>
+			</table>
+		</header>
+		<div id="my-timeline"></div>
+	</body>
+	</html>

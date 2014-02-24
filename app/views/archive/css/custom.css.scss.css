@@ -1,12 +1,12 @@
 body {
-	background-color: #171717
+	background-color: #171717;
 }
 
 #archive {
 	position: static;
 
 	.vco-storyjs {
-		background-color: #1a1a1a; !important
+		background-color: #1a1a1a;  !important
 	}
 
 
@@ -15,7 +15,6 @@ body {
 	}
 
 	.vco-timeline .vco-navigation .timenav-background .timenav-indicator {
-		background-image: url();
 	}
 
 	.vco-timeline .vco-navigation .timenav .content .marker.active .flag .flag-content h3, .vco-timeline .vco-navigation .timenav .content .marker.active .flag-small .flag-content h3 {
