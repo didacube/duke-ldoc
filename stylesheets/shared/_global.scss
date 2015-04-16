@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  background-color: $primary-day;
+}
+
+html,
+h1,
+h2,
+h3,
+p,
+li,
+a,
+td,
+th {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+p,
+td,
+th {
+  color: $text;
+  line-height: 2em;
+}
+
+th {
+  font-weight: 700;
+}
+
+a {
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+  &:focus {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+nav,
+footer {
+  background-color: $accent-day;
+  text-align: center;
+  margin-bottom: 50px;
+  ul {
+    margin: 0 auto;
+    li {
+      list-style-type: none;
+      display: inline-block;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding: 15px;
+      &:hover {
+        background-color: $accent-hover-day;
+        cursor: pointer;
+      }
+    }
+  }
+}

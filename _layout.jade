@@ -1,0 +1,16 @@
+doctype
+html
+  head
+    link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Montserrat:400,700')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+    link(rel="stylesheet" href="stylesheets/main.css")
+
+  body
+    header
+      != partial("_shared/_header.jade")
+    nav
+      != partial("_shared/_nav.jade")
+    .container
+      != yield
+    footer.navbar-fixed-bottom
+      != partial("_shared/_footer.jade")

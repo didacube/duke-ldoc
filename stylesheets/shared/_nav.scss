@@ -1,0 +1,28 @@
+nav {
+  .container {
+    margin-bottom: 0;
+    li {
+      &:hover {
+        ul.sub-nav {
+          display: block;
+        }
+      }
+    }
+    ul.sub-nav {
+      position: absolute;
+      display: none;
+      background-color: $accent-hover-day;
+      left: 0;
+      margin-top: 15px;
+      width: 100%;
+      li {
+        display: inline-block;
+        font-size: 14px;
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

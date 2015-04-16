@@ -1,0 +1,9 @@
+a.btn {
+  background-color: $accent-day;
+  border-radius: 5px;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $accent-hover-day;
+    color: white;
+  }
+}
