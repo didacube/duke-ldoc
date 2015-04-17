@@ -5,13 +5,22 @@ nav {
     li {
       &:hover {
         ul.sub-nav {
-          display: block;
+          transition: all 0.2s ease-out;
+          transition-delay: 0.1s;
+          max-height: 100px;
+          li {
+            a {
+              color: white;
+            }
+          }
         }
       }
     }
     ul.sub-nav {
+      transition: all 0.2s ease-in;
+      transition-delay: 0.1s;
       position: absolute;
-      display: none;
+      max-height: 0;
       background-color: $accent-hover-day;
       left: 0;
       margin-top: 15px;
@@ -20,7 +29,10 @@ nav {
         display: inline-block;
         font-size: 14px;
         a {
+          color: transparent;
           padding: 15px;
+          transition: all 0.2s linear;
+          transition-delay: 0.1s;
           &:hover {
             background-color: $accent-day;
             cursor: pointer;

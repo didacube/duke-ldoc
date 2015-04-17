@@ -54,6 +54,8 @@ footer {
       padding: 15px 0;
       a {
         padding: 15px;
+        transition: all 0.2s linear;
+        transition-delay: 0.1s;
         &:hover {
           background-color: $accent-hover-day;
           cursor: pointer;
