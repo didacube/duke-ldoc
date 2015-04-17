@@ -11,3 +11,108 @@ $accent-night: #E13E38;
 $accent-hover-night: #891D1F;
 $primary-night: #171F31;
 $header-image-night: url("/images/header-night.png");
+header.day {
+  background-image: $header-image-day;
+}
+
+body.day {
+  background-color: $primary-day;
+  .content {
+    h2 {
+      background-color: $accent-day;
+    }
+    a.btn {
+      background-color: $accent-day;
+      &:hover {
+        background-color: $accent-hover-day;
+      }
+    }
+    ul.links {
+      li {
+        a {
+          color: $accent-day;
+          &:hover {
+            color: $accent-hover-day;
+          }
+        }
+      }
+    }
+    .view {
+      .mask {
+        background-color: $accent-hover-day;
+      }
+    }
+  }
+}
+
+nav.day,
+footer.day,
+{
+  background-color: $accent-day;
+  a {
+    &:hover {
+      background-color: $accent-hover-day;
+    }
+  }
+  ul.sub-nav {
+    background-color: $accent-hover-day;
+    a {
+      &:hover {
+        background-color: $accent-day;
+      }
+    }
+  }
+}
+
+header.night {
+  background-image: $header-image-night;
+}
+
+body.night {
+  background-color: $primary-night;
+  .content {
+    h2 {
+      background-color: $accent-night;
+    }
+    a.btn {
+      background-color: $accent-night;
+      &:hover {
+        background-color: $accent-hover-night;
+      }
+    }
+    ul.links {
+      li {
+        a {
+          color: $accent-night;
+          &:hover {
+            color: $accent-hover-night;
+          }
+        }
+      }
+    }
+    .view {
+      .mask {
+        background-color: $accent-hover-night;
+      }
+    }
+  }
+}
+
+nav.night,
+footer.night,
+{
+  background-color: $accent-night;
+  a {
+    &:hover {
+      background-color: $accent-hover-night;
+    }
+  }
+  ul.sub-nav {
+    background-color: $accent-hover-night;
+    a {
+      &:hover {
+        background-color: $accent-night;
+      }
+    }
+  }
+}
