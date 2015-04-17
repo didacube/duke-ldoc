@@ -1,4 +1,5 @@
 .view {
+  margin-top: 30px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -45,7 +46,7 @@
     }
   }
   .mask {
-    width: 320px;
+    width: 400px;
     height: 200px;
     position: absolute;
     overflow: hidden;
