@@ -7,7 +7,7 @@
       padding: 30px;
       border-radius: 10px;
       h2 {
-        background-color: $accent-day;
+        background-color: $accent;
         display: inline-block;
         margin: 0;
         padding: 15px 30px 15px 15px;
@@ -38,9 +38,9 @@
           padding: 15px;
           a {
             font-size: 20px;
-            color: $accent-day;
+            color: $accent;
             &:hover {
-              color: $accent-hover-day;
+              color: $accent-hover;
             }
           }
         }

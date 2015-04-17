@@ -21,7 +21,7 @@ nav {
       transition-delay: 0.1s;
       position: absolute;
       max-height: 0;
-      background-color: $accent-hover-day;
+      background-color: $accent-hover;
       left: 0;
       margin-top: 15px;
       width: 100%;
@@ -34,7 +34,7 @@ nav {
           transition: all 0.2s linear;
           transition-delay: 0.1s;
           &:hover {
-            background-color: $accent-day;
+            background-color: $accent;
             cursor: pointer;
           }
         }
