@@ -19,9 +19,12 @@ nav {
       li {
         display: inline-block;
         font-size: 14px;
-        &:hover {
-          text-decoration: underline;
-          cursor: pointer;
+        a {
+          padding: 15px;
+          &:hover {
+            background-color: $accent-day;
+            cursor: pointer;
+          }
         }
       }
     }

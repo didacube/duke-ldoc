@@ -51,10 +51,13 @@ footer {
       display: inline-block;
       font-size: 20px;
       text-transform: uppercase;
-      padding: 15px;
-      &:hover {
-        background-color: $accent-hover-day;
-        cursor: pointer;
+      padding: 15px 0;
+      a {
+        padding: 15px;
+        &:hover {
+          background-color: $accent-hover-day;
+          cursor: pointer;
+        }
       }
     }
   }
