@@ -1,0 +1,59 @@
+#log-in.row.divide
+  .col-xs-12
+    .content
+      h2 Log In
+      form
+          .form-group
+              label Username
+              input#log-in-username.form-control(type="text")
+          .form-group
+            label Password
+            input#log-in-password.form-control(type="password")
+          a#log-in-button.btn(type="submit") Log In
+#dashboard.row.divide
+  .col-xs-12
+    .content
+      h2 Add Update
+      form
+        .form-group
+          p.help-block Use this to add another Facebook post to the updates portion of the page.
+          .row
+            .col-xs-12.col-sm-6
+              p.help-block
+                strong Step 1: 
+                | Go to the LDOC Facebook page
+                br
+                img(src="/images/dashboard/updates/step1.png")
+            .col-xs-12.col-sm-6
+              p.help-block
+                strong Step 2: 
+                | Pick a post you want to add to the page.
+                br
+                img(src="/images/dashboard/updates/step2.png")
+          .row
+            .col-xs-12.col-sm-6
+              p.help-block
+                strong Step 3: 
+                | Click on the little dropdown on the top-right corner, and click on 'embed post'.
+                br
+                img(src="/images/dashboard/updates/step3.png")
+            .col-xs-12.col-sm-6
+              p.help-block
+                strong Step 4: 
+                | Copy and paste the code that Facebook provides you into the textarea below.
+                br
+                img(src="/images/dashboard/updates/step4.png")
+          .row
+            .col-xs-12
+              p.help-block
+                strong Step 5: 
+                | Hit the 'add post' button and you should see that post appear below!
+          label Facebook Post Embed Code
+          textarea#updates-post.form-control(type="text")
+        a#updates-post-button.btn(type="submit") Add Post
+  .col-xs-12
+    .content
+      h2 Current Updates
+      .posts
+        .row
+script(src="scripts/edit.js")

@@ -4,7 +4,13 @@ html
     link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Montserrat:400,700')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
     link(rel="stylesheet" href="stylesheets/main.css")
-
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js")
+    script(src="//www.parsecdn.com/js/parse-1.4.2.min.js")
+    script(src="scripts/parse.js")
+    script(src="scripts/updates.js")
+    script(src="scripts/main.js")
   body
     header
       != partial("_shared/_header.jade")
@@ -14,5 +20,3 @@ html
       != yield
     footer
       != partial("_shared/_footer.jade")
-  script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
-  script(src="scripts/main.js")
